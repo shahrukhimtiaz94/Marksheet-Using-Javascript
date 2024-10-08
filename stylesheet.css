@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 60px 231px;
+    padding: 100px 11px;
+    border: 1px solid white;
+    box-shadow: 0 0 4px 0px #0000008f;
+}
+
+div#main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+p {
+    margin-top: -15px;
+}
+
+div#bio {
+    width: 100%;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: monospace;
+    border-bottom: 1px solid;
+    margin-bottom: 13px;
+    padding-bottom: 8px;
+}
+
+
+div#marksheet {
+    width: 100%;
+}
+
+table tr td {
+    border: solid 1px;
+    padding: 10px;
+}
+table tr th {
+    border: solid 1px;
+    text-align:left;
+    font-weight: bold;
+    padding: 10px;
+}
+table {
+    width: 100%;
+}
+
+tr.total-tr td {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background: black;
+    text-align: center;
+}
+
+h1.mark {
+    font-size: 41px;
+    text-transform: uppercase;
+    letter-spacing: 4.2px;
+    font-family: sans-serif;
+}
